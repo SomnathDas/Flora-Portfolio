@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&family=Space+Grotesk&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3 {
+  font-family: "Lexend Deca";
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: 400;
+}

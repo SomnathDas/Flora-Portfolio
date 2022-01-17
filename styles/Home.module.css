@@ -1,0 +1,28 @@
+.zerothSection {
+  background-image: url(https://uploads-ssl.webflow.com/5c3b9a6b6bc47198ec041cad/5e41e73ec2af60cf5cc94e67_website%20landing.png);
+  background-position: 0% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-transition: background-color 400ms linear;
+  -ms-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+}
+
+.firstSection {
+  background-image: url(https://uploads-ssl.webflow.com/5c3b9a6b6bc47198ec041cad/5d3385856b1d5cea101dfb6b_google%20intro%20plain.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.secondSection {
+  background-image: url(https://uploads-ssl.webflow.com/5c3b9a6b6bc47198ec041cad/5ee9089e1682636c5a90b0c8_ponder%20homepage.png);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welp {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
