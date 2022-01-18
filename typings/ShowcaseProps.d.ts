@@ -5,6 +5,8 @@ type ShowCaseProps = {
   number: string;
   title: string;
   description: string;
+  setInstances?: Function;
+  numberOfInstances?: number;
 };
 
 export default ShowCaseProps;
