@@ -20,8 +20,8 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home</title>
-        <meta name="description" content="Flora HomePage" />
+        <title>About</title>
+        <meta name="description" content="Invasion of my nightmare" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -46,8 +46,8 @@ const About: NextPage = () => {
               <div className="md:pl-36 pl-12 pt-16 pb-16 pr-32 flex flex-col gap-4 md:justify-around">
                 <h1 className="text-xl">This is me.</h1>
                 <h2 className="md:text-4xl text-3xl md:leading-relaxed">
-                  I'm a UX Designer focused on creating a more connected, easier
-                  to use world
+                  I'm currently learning about UX/UI Designing while trying to
+                  keep myself sane.
                 </h2>
               </div>
             </div>
@@ -58,16 +58,20 @@ const About: NextPage = () => {
             <div className=" md:w-2/3 pl-10 pr-10">
               <h1 className="md:text-4xl text-2xl pb-4">Who am I?</h1>
               <h4 className="md:text-xl text-md">
-                I'm a new grad studying User experience design who never out
-                grew his healthy obsession with Mario Kart. I find myself
-                constantly listening to music (87,330 minutes in 2018 to be
-                exact) and like anyone else my age I'm a self proclaimed foodie.
-                My current home is Austin, Texas but I mostly grew up in the
-                small town of Acworth, Georgia north of Atlanta. While being
-                fascinated with all aspects of User Experience design, I
-                specialize in ideation, storytelling and visual design. I love
-                diving into why and how people use things, and furthering those
-                experiences to make them memorable.
+                I'm a cyber punk. Just tryna be edgy there but yeah. Obssessed
+                with Ling Tosite Sigure and the world of cyberpunk. Here I am
+                trying to solve design problems and sometimes mathematical too.
+                I loved this site design by Nicolas and so I tried clonning it,
+                I am not sure how I did on this one, you can check his original
+                portfolio out <br></br>
+                <a
+                  href="https://www.nicolaspellegrino.com"
+                  target="_blank"
+                  referrerPolicy="no-referrer"
+                  className=" decoration-amber-300 underline"
+                >
+                  Click here
+                </a>
               </h4>
             </div>
           </div>
@@ -75,13 +79,25 @@ const About: NextPage = () => {
           <div
             className={`text-justify md:pt-16 md:pl-48 md:pr-48 md:pb-16 pt-12 flex justify-center`}
           >
-            <div className=" md:w-2/3 pl-10 pr-10">
-              <h1 className="md:text-4xl text-2xl pb-4">Resume</h1>
-              <Image
-                src="https://ssr.resume.tools/to-image/ssid-jEiOv9LFp-1.webp"
-                height={1280}
-                width={720}
-              />
+            <div className=" md:w-2/3 pl-10 pr-10 flex flex-col items-center">
+              <h1 className="md:text-4xl text-2xl pb-4 self-baseline">
+                Resume
+              </h1>
+              <div className={`${styles.resumeImage}`}>
+                <Image
+                  src="https://ssr.resume.tools/to-image/ssid-jEiOv9LFp-1.webp?cache=c19cc2e02c&size=1980"
+                  height={2800}
+                  width={1980}
+                />
+              </div>
+              <a
+                href="https://resume.io/r/jEiOv9LFp"
+                target="_blank"
+                className={` md:w-2/4 w-3/4 pt-6  pb-6 pl-8 pr-8 mt-8 mb-8 bg-black flex justify-center text-white text-center hover:bg-white hover:text-black border-black border-2`}
+                referrerPolicy="no-referrer"
+              >
+                Check out Resume
+              </a>
             </div>
           </div>
         </main>
