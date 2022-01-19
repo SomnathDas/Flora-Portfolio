@@ -1,6 +1,7 @@
 # Flora Portfolio
 
-A minimalistic and eye-catching Portfolio
+A minimalistic and eye-catching Portfolio ( ͡👁 ͜ʖ ͡👁)
+[Check it out](http://flora-portfolio.vercel.app/)
 
 ## Screenshots
 <a href="https://ibb.co/XFjJhvG">
