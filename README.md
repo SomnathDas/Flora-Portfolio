@@ -11,4 +11,5 @@ A minimalistic and eye-catching Portfolio ( ͡👁 ͜ʖ ͡👁)
 ## Acknowledgments
 
 Inspiration
+(👍 ͡≖ ͜ʖ ͡≖)👍 
 * [Nicolas](https://www.nicolaspellegrino.com/)
